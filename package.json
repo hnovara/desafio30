@@ -3,17 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hnovara/desafio30.git"
-  },
-  "author": "Her",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hnovara/desafio30/issues"
-  },
-  "homepage": "https://github.com/hnovara/desafio30#readme"
+  "dependencies": {
+    "colors": "^1.4.0",
+    "prompt-sync": "^4.2.0"
+  }
 }
